@@ -1,15 +1,15 @@
 ##ONLY FOR STUDY write by myself
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <arpa/inet.h>
-#include <pthread.h>
+  #include <stdio.h>
+  #include <stdlib.h>
+  #include <string.h>
+  #include <unistd.h>
+  #include <sys/types.h>
+  #include <sys/socket.h>
+  #include <netinet/in.h>
+  #include <arpa/inet.h>
+  #include <pthread.h>
 
-#define DEFAULT_PORT 5050
+  #define DEFAULT_PORT 5050
 
 struct movielist{ 
                           char ver[10];
